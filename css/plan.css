@@ -1,0 +1,208 @@
+html, body {
+  margin:  0;
+  padding:  0;
+}
+
+h2 {
+  margin: .6em;
+  font-size: 3em;
+  font-family: "Montserrat",sans-serif;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-family: "Kaushan Script",cursive;
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+.plan {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.exp-box {
+  display: block;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+@media screen and (min-width: 770px) {
+  .exp-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+.exp-left, .exp-right {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 1em 2em;
+  font-size: .9em;
+  margin-right: 2em;
+  max-width: 50em;
+}
+@media screen and (min-width: 470) {
+  .exp-left, .exp-right {
+    font-size: 1em;
+  }
+}
+
+.exp-item, .exp-item-right {
+  padding: 1em;
+  margin: 1em 0 3em 0;
+  color: #aaa;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #eee;
+  border-radius: 10px;
+  position: relative;
+  -webkit-transition: all .15s linear;
+  transition: all .15s linear;
+  cursor: pointer;
+}
+.exp-item h4, .exp-item-right h4 {
+  font-size: 1em;
+  color: #000;
+  letter-spacing: 1px;
+}
+@media screen and (min-width: 470) {
+  .exp-item h4, .exp-item-right h4 {
+    font-size: 1.2em;
+  }
+}
+.exp-item p, .exp-item-right p {
+  padding-top: .3em;
+}
+
+.item-desc {
+  width: 80%;
+}
+
+.item-data {
+  padding: 0 1em;
+  text-align: center;
+}
+.item-data .exp-data {
+  font-size: 1.2em;
+  font-weight: 300;
+  color: #498CB0;
+}
+@media screen and (min-width: 470) {
+  .item-data .exp-data {
+    font-size: 2.5em;
+  }
+}
+
+.exp-item:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 20px 0 20px 27px;
+  border-color: transparent transparent transparent #eee;
+  left: 100%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  -webkit-transition: all .15s linear;
+  transition: all .15s linear;
+}
+
+.exp-item-right {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+.exp-item-right:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 20px 27px 20px 0;
+  border-color: transparent #eee transparent transparent;
+  left: 0%;
+  top: 50%;
+  -webkit-transform: translate(-100%, -50%);
+          transform: translate(-100%, -50%);
+  -webkit-transition: all .15s linear;
+  transition: all .15s linear;
+}
+
+.exp-item:hover {
+  background: #498CB0;
+}
+.exp-item:hover:after {
+  border-color: transparent transparent transparent #498CB0;
+}
+.exp-item:hover h4, .exp-item:hover p, .exp-item:hover .exp-data {
+  color: #fff;
+}
+
+.exp-item-right:hover {
+  background: #498CB0;
+}
+.exp-item-right:hover:after {
+  border-color: transparent #498CB0 transparent transparent;
+}
+.exp-item-right:hover h4, .exp-item-right:hover p, .exp-item-right:hover .exp-data {
+  color: #fff;
+}
+
+.show-mobile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+@media screen and (min-width: 770px) {
+  .show-mobile {
+    display: none;
+  }
+}
+
+.hide-mobile {
+  display: none;
+}
+@media screen and (min-width: 770px) {
+  .hide-mobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+.back-home{
+  font-size: 2em;
+  margin:  30px;
+  cursor:  pointer;
+  transition: all .2s linear;
+  color:  #000;
+}
+
+
+
+.back-home:hover{
+  font-size: 2.4em;
+}
