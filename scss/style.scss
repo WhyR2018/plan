@@ -142,9 +142,12 @@ Main Components
 	.events-group > ul {
 		position: relative;
 		padding: 0 5%;
-		/* force its children to stay on one line
+		/* force its children to stay on one line */
 		display: flex;
-		overflow-x: scroll;
+		overflow-x: inherit;
+		flex-direction: column;
+    	justify-content: center;
+    	align-items: center;
 		-webkit-overflow-scrolling: touch;
 
 		&::after {
