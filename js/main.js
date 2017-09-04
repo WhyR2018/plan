@@ -25,7 +25,7 @@ jQuery(document).ready(function($){
 		this.modalHeaderBg = this.modal.find('.header-bg');
 		this.modalBody = this.modal.find('.body'); 
 		this.modalBodyBg = this.modal.find('.body-bg'); 
-		this.modalMaxWidth = 800;
+		this.modalMaxWidth = 1200;
 		this.modalMaxHeight = 480;
 
 		this.animating = false;
