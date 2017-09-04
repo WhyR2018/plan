@@ -149,14 +149,14 @@ jQuery(document).ready(function($){
 				modalTranslateY = parseInt((windowHeight - modalHeight)/2 - eventTop);
 			
 			var HeaderBgScaleY = modalHeight/eventHeight,
-				BodyBgScaleX = (modalWidth - eventWidth);
+				BodyBgScaleX = 1.1*(modalWidth - eventWidth);
 
 			//change modal height/width and translate it
 			self.modal.css({
 				top: eventTop+'px',
 				left: eventLeft+'px',
 				height: modalHeight+'px',
-				width: 0.95*modalWidth+'px',
+				width: modalWidth+'px',
 			});
 			transformElement(self.modal, 'translateY('+modalTranslateY+'px) translateX('+modalTranslateX+'px)');
 
