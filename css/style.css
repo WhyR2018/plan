@@ -376,8 +376,7 @@ Main Components
         transition-timing-function: cubic-bezier(0.5, 0, 0.1, 1); }
       .cd-schedule .event-modal .body-bg {
         opacity: 0;
-        transform: none;
-        min-width: 1.8px; }
+        transform: none;}
       .cd-schedule .event-modal .event-date {
         display: block; }
       .cd-schedule .event-modal .close, .cd-schedule .event-modal .event-info {
