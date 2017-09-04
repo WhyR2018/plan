@@ -149,7 +149,7 @@ jQuery(document).ready(function($){
 				modalTranslateY = parseInt((windowHeight - modalHeight)/2 - eventTop);
 			
 			var HeaderBgScaleY = modalHeight/eventHeight,
-				BodyBgScaleX = 1.1*(modalWidth - eventWidth);
+				BodyBgScaleX = 1.6*(modalWidth - eventWidth);
 
 			//change modal height/width and translate it
 			self.modal.css({
@@ -162,11 +162,11 @@ jQuery(document).ready(function($){
 
 			//set modalHeader width
 			self.modalHeader.css({
-				width: eventWidth+'px',
+				width: eventWidth-300+'px',
 			});
 			//set modalBody left margin
 			self.modalBody.css({
-				marginLeft: eventWidth+'px',
+				marginLeft: eventWidth-300+'px',
 			});
 
 			//change modalBodyBg height/width ans scale it
@@ -179,7 +179,7 @@ jQuery(document).ready(function($){
 			//change modal modalHeaderBg height/width and scale it
 			self.modalHeaderBg.css({
 				height: eventHeight+'px',
-				width: eventWidth+'px',
+				width: eventWidth-300+'px',
 			});
 			transformElement(self.modalHeaderBg, 'scaleY('+HeaderBgScaleY+')');
 			
