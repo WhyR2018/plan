@@ -268,14 +268,14 @@ Main Components
   background: #f7bd7f; }
   
 .cd-schedule .single-event[data-event="event-ws"],
-.cd-schedule [data-event="event-4"] .header-bg {
+.cd-schedule [data-event="event-ws"] .header-bg {
   background: #00bfff; }
 
 .cd-schedule .single-event[data-event="event-ws"]:hover {
   background: #00b2ee; }    
   
 .cd-schedule .single-event[data-event="event-RL"],
-.cd-schedule [data-event="event-4"] .header-bg {
+.cd-schedule [data-event="event-RL"] .header-bg {
   background: #eeaeee; }
 
 .cd-schedule .single-event[data-event="event-RL"]:hover {
