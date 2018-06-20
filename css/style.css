@@ -266,6 +266,20 @@ Main Components
 
 .cd-schedule .single-event[data-event="event-4"]:hover {
   background: #f7bd7f; }
+  
+.cd-schedule .single-event[data-event="event-ws"],
+.cd-schedule [data-event="event-4"] .header-bg {
+  background: #00bfff; }
+
+.cd-schedule .single-event[data-event="event-ws"]:hover {
+  background: #00b2ee; }    
+  
+.cd-schedule .single-event[data-event="event-RL"],
+.cd-schedule [data-event="event-4"] .header-bg {
+  background: #eeaeee; }
+
+.cd-schedule .single-event[data-event="event-RL"]:hover {
+  background: #cd96cd; }  
 
 .cd-schedule .event-modal {
   position: fixed;
