@@ -135,7 +135,7 @@ Main Components
       float: left;
       width: 100%; }
       .cd-schedule .events .events-group {
-        width: 50%;                                       /*TUTAJ szerokość bloków, mniejsza to więcej się zmieści*/
+        width: 16.66%;                                       /*TUTAJ szerokość bloków, mniejsza to więcej się zmieści*/
         float: left;
         border: 1px solid #EAEAEA;
         /* reset style */
@@ -184,7 +184,7 @@ Main Components
         max-width: none;
         margin-right: 0; }
         .cd-schedule .events .single-event a {
-          padding: 1.2em; }                               /*TUTAJ zminiać położenie napisów w bloku*/
+          padding: .5em; }                               /*TUTAJ zminiać położenie napisów w bloku*/
         .cd-schedule .events .single-event:last-of-type {
           /* reset style */
           margin-right: 0; }
