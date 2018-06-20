@@ -135,7 +135,7 @@ Main Components
       float: left;
       width: 100%; }
       .cd-schedule .events .events-group {
-        width: 16.66%;                                       /*TUTAJ szerokość bloków, mniejsza to więcej się zmieści*/
+        width: 20%;                                       /*TUTAJ szerokość bloków, mniejsza to więcej się zmieści*/
         float: left;
         border: 1px solid #EAEAEA;
         /* reset style */
