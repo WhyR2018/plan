@@ -279,7 +279,7 @@ Main Components
   background: #eeaeee; }
 
 .cd-schedule .single-event[data-event="event-RL"]:hover {
-  background: #cd96cd; }  
+  background: #cd96cd; }    
 
 .cd-schedule .event-modal {
   position: fixed;
