@@ -276,10 +276,10 @@ Main Components
   
 .cd-schedule .single-event[data-event="event-RL"],
 .cd-schedule [data-event="event-RL"] .header-bg {
-  background: #eeaeee; }
+  background: #d6f7a5; }
 
 .cd-schedule .single-event[data-event="event-RL"]:hover {
-  background: #cd96cd; }    
+  background: #c7e599; }    
 
 .cd-schedule .event-modal {
   position: fixed;
