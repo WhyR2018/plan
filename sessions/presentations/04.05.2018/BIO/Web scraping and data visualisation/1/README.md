@@ -1,0 +1,15 @@
+# R as a tool for visualization of large demographic datasets
+
+[Anna	Dmowska,	Adam Mickiewicz University; Institute Geoecology and Geoinformation]()
+
+## Description
+
+The aim of this presentation is to provide a comprehensive framework for visualization of high resolution demographic data using dot density maps. The proposed algorithm to create dot density map is based on high resolution geospatial raster data provided as a result of dasymetric modeling. 
+
+Demographic data are usually visualize based on statistical data aggregated over previously defined regions by assigning  one color to whole aggregated units (choropleth map) or by using dot density maps (e.g racial dot map). In such maps dots are randomly distributed within region and each dot represents one or more people. The main limitation of such maps is their dependence on the size of the region; uninhabited areas are not excluded from mapping.
+
+The one solution used to produce more detailed maps is a dasymetric modeling which allow to redistribute demographic data (such as population or racial/ethnicity) from aggregated units into geospatial grids cells. The resultant map will be a high resolution geospatial raster dataset. Such map presents more detailed information about racial/population distribution by shifting all population only to inhabited areas and assigning it to grid cells using different weights for different types of residential areas. However calculating such maps for large areas is time consuming and it required efficient, fully automated, flexible procedure. So far there have been also no algorithms that would allow to use high resolution raster data to produce dot density maps. 
+
+We developed an automatic procedure which use R to build fully automated computational environment to work with demographic data in the continental scale (11 millions of records in tabular data and 8 billions of cells).  This procedure consists of 2 steps: 1) performing dasymetric modeling to disaggregate population and race/ethnicity groups data into grid cells (this step was presented during ERUM 2016 conference); 2) using high resolution grids to visualize data as a dot density maps. 
+
+R provides us a tool to construct dot density maps based on statistical data aggregated in spatial units (maptools::dotsInPolys), but that algorithm flaws for serious limitations: it works only with large polygons and is very inefficient. Our solution uses raster data as an input and dots are randomly scattered in each cell. In situation when approximate number of people for one cell is below 1 algorithm uses probabilistic approach to decide whether to place a point in a given cell or not. If visualization cover more than one race it also build random stack where probability of displaying a point at the top depends on the percentage of the race in a cell.
