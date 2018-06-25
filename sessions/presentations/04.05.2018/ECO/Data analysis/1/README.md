@@ -1,6 +1,6 @@
 # Marketing analytics the Shiny waym
 
-[Alfonso Álvarez, Jakub Małecki]()
+[Adolfo Álvarez, Jakub Małecki]()
 
 ## Description
 
