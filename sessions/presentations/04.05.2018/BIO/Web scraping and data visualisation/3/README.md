@@ -1,6 +1,6 @@
 # Webscraping with RSelenium
 
-[Krsteff-Jantcheff	Pieter,	Ordina Belgium]()
+[Pieter Krsteff-Jantcheff,	Ordina Belgium]()
 
 ## Description
 
