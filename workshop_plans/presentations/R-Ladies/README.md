@@ -20,7 +20,7 @@ Warsztaty będą podzielone na cztery półtoragodzinne bloki:
 
 Mentorki:
 
-[Alicja Gosiewska](https://www.linkedin.com/in/alicja-gosiewska/)
-[Aleksandra Grudziąż](https://www.linkedin.com/in/aleksandra-grudziąż-037700149/)
-[Marta Sommer](https://www.linkedin.com/in/marta-sommer-199024113/)
-[Magda Młynarczyk](https://www.linkedin.com/in/magda-młynarczyk-47955314b/)
++ [Alicja Gosiewska](https://www.linkedin.com/in/alicja-gosiewska/)
++ [Aleksandra Grudziąż](https://www.linkedin.com/in/aleksandra-grudziąż-037700149/)
++ [Marta Sommer](https://www.linkedin.com/in/marta-sommer-199024113/)
++ [Magda Młynarczyk](https://www.linkedin.com/in/magda-młynarczyk-47955314b/)
