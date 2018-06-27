@@ -19,7 +19,8 @@ Warsztaty będą podzielone na cztery półtoragodzinne bloki:
 4. zaawansowana wizualizacja danych (m.in. ggplot2, plotly)
 
 Mentorki:
-Alicja Gosiewska
-Aleksandra Grudziąż
-Marta Sommer
-Magda Młynarczyk
+
+[Alicja Gosiewska](https://www.linkedin.com/in/alicja-gosiewska/)
+[Aleksandra Grudziąż](https://www.linkedin.com/in/aleksandra-grudziąż-037700149/)
+[Marta Sommer](https://www.linkedin.com/in/marta-sommer-199024113/)
+[Magda Młynarczyk](https://www.linkedin.com/in/magda-młynarczyk-47955314b/)
