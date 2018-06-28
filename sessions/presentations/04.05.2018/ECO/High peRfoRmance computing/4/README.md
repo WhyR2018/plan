@@ -1,6 +1,6 @@
 # Tell me which packages you use and I’ll tell you who you are (tidyverse vs data.table vs base R)
 
-[Anna	Skrzydło]()
+[Anna	Skrzydło, Bartosz Kowalski]()
 
 ## Description
 
