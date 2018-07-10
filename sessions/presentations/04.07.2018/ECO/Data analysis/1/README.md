@@ -1,4 +1,4 @@
-# Marketing analytics the Shiny waym
+# Marketing analytics the Shiny way
 
 [Adolfo Álvarez, Jakub Małecki]()
 
